@@ -1,0 +1,25 @@
+# Core Django
+Django==4.2.7
+djangorestframework==3.14.0
+
+# Database
+psycopg2-binary==2.9.7
+dj-database-url==2.1.0
+
+# Production server
+gunicorn==21.2.0
+
+# Environment management
+python-decouple==3.8
+
+# CORS handling
+django-cors-headers==4.3.1
+
+# Static files for production
+whitenoise==6.6.0
+
+# Google Maps (if you're using it)
+googlemaps==4.10.0
+
+# HTTP requests
+requests==2.31.0
