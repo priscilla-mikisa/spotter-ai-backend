@@ -39,4 +39,4 @@ USER appuser
 EXPOSE 8000
 
 # For production, use gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "2", "--timeout", "120", "spotter_assessment.wsgi:application"]
+CMD ["sh", "-c", "python manage.py migrate --run-syncdb && gunicorn --bind 0.0.0.0:8000 --workers 2 --timeout 120 spotter_assessment.wsgi:application"]
