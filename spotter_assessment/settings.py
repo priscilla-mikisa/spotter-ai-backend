@@ -237,15 +237,13 @@ LOGGING = {
 
 os.makedirs(os.path.join(BASE_DIR, 'logs'), exist_ok=True)
 
-# Railway deployment detection
-RAILWAY_ENVIRONMENT = os.environ.get('RAILWAY_ENVIRONMENT')
+# Render detection
+RENDER = os.environ.get('RENDER')
 
-if RAILWAY_ENVIRONMENT:
-    # Production settings for Railway
+if RENDER:
     DEBUG = False
-    ALLOWED_HOSTS = ['*']  # Railway handles the domain routing
+    ALLOWED_HOSTS = ['*']
     
-    # Railway provides DATABASE_URL automatically with PostgreSQL
     DATABASES = {
         'default': dj_database_url.config(
             default=os.environ.get('DATABASE_URL'),
@@ -253,34 +251,3 @@ if RAILWAY_ENVIRONMENT:
             conn_health_checks=True,
         )
     }
-    
-    # Static files configuration
-    STATIC_URL = '/static/'
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    
-    # Use WhiteNoise for static files
-    MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-    
-    # Security settings for production
-    SECURE_BROWSER_XSS_FILTER = True
-    SECURE_CONTENT_TYPE_NOSNIFF = True
-    
-else:
-    # Local development settings
-    DEBUG = True
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
-    
-    # Your existing local database configuration
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': os.environ.get('DB_NAME', 'spotterdatabase'),
-            'USER': os.environ.get('DB_USER', 'spotteruser'),
-            'PASSWORD': os.environ.get('DB_PASSWORD', 'spotter256'),
-            'HOST': os.environ.get('DB_HOST', 'localhost'),
-            'PORT': os.environ.get('DB_PORT', '5432'),
-        }
-    }
-
-PORT = os.environ.get('PORT', 8000)
