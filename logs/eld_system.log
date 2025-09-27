@@ -69,3 +69,12 @@ INFO 2025-09-25 11:03:14,357 basehttp 24238 127988299450048 "GET /api/carriers/ 
 INFO 2025-09-25 14:47:21,822 autoreload 5340 135791920697472 Watching for file changes with StatReloader
 INFO 2025-09-25 17:13:27,477 autoreload 5042 137769680044160 Watching for file changes with StatReloader
 INFO 2025-09-27 14:29:57,349 autoreload 21212 130776758083712 Watching for file changes with StatReloader
+INFO 2025-09-27 14:31:27,253 autoreload 21640 132470882308224 Watching for file changes with StatReloader
+WARNING 2025-09-27 14:32:35,801 log 21640 132470798280384 Not Found: /
+WARNING 2025-09-27 14:32:35,802 basehttp 21640 132470798280384 "GET / HTTP/1.1" 404 2826
+WARNING 2025-09-27 14:32:36,051 log 21640 132470798280384 Not Found: /favicon.ico
+WARNING 2025-09-27 14:32:36,054 basehttp 21640 132470798280384 "GET /favicon.ico HTTP/1.1" 404 2877
+INFO 2025-09-27 14:32:50,966 basehttp 21640 132470798280384 "GET /api/ HTTP/1.1" 200 140
+INFO 2025-09-27 14:32:57,165 basehttp 21640 132470798280384 "GET /api/trips/ HTTP/1.1" 200 52
+INFO 2025-09-27 14:39:27,039 autoreload 21640 132470882308224 /home/miki/SpotterAI/spotter_assessment/spotter_assessment/settings.py changed, reloading.
+INFO 2025-09-27 14:39:58,554 autoreload 22307 138137590550656 Watching for file changes with StatReloader
