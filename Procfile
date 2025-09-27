@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn --bind 0.0.0.0:$PORT spotter_assessment.wsgi:application
+web: python manage.py migrate --run-syncdb && gunicorn --bind 0.0.0.0:$PORT spotter_assessment.wsgi:application
