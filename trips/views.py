@@ -17,8 +17,10 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class CarrierViewSet(viewsets.ReadOnlyModelViewSet):
+class CarrierViewSet(viewsets.ModelViewSet):
     """ViewSet for carrier information"""
+    queryset = Carrier.objects.all()
+    serializer_class = CarrierSerializer
 
 # Create your views here.
 from rest_framework import viewsets, status
@@ -37,12 +39,12 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class CarrierViewSet(viewsets.ReadOnlyModelViewSet):
+class CarrierViewSet(viewsets.ModelViewSet):
     """ViewSet for carrier information"""
     queryset = Carrier.objects.all()
     serializer_class = CarrierSerializer
 
-class DriverViewSet(viewsets.ReadOnlyModelViewSet):
+class DriverViewSet(viewsets.ModelViewSet):
     """ViewSet for driver information"""
     queryset = Driver.objects.all()
     serializer_class = DriverSerializer
@@ -143,7 +145,7 @@ class TripViewSet(viewsets.ModelViewSet):
     queryset = Carrier.objects.all()
     serializer_class = CarrierSerializer
 
-class DriverViewSet(viewsets.ReadOnlyModelViewSet):
+class DriverViewSet(viewsets.ModelViewSet):
     """ViewSet for driver information"""
     queryset = Driver.objects.all()
     serializer_class = DriverSerializer
