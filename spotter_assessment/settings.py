@@ -162,8 +162,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  
     "http://127.0.0.1:3000",
     "https://spotter-ai-backend.onrender.com",
-    "https://spotter-ai-frontend.vercel.app",
-    "https://spotter-ai-frontend.netlify.app",
+    "https://spotter-ai-frontend-adxcada1q-akira-chix.vercel.app",
 ]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [

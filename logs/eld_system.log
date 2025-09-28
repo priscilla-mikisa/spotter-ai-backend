@@ -79,3 +79,52 @@ INFO 2025-09-27 14:32:57,165 basehttp 21640 132470798280384 "GET /api/trips/ HTT
 INFO 2025-09-27 14:39:27,039 autoreload 21640 132470882308224 /home/miki/SpotterAI/spotter_assessment/spotter_assessment/settings.py changed, reloading.
 INFO 2025-09-27 14:39:58,554 autoreload 22307 138137590550656 Watching for file changes with StatReloader
 INFO 2025-09-27 14:41:22,023 autoreload 22913 140054844227712 Watching for file changes with StatReloader
+INFO 2025-09-28 04:28:32,464 autoreload 11861 125408807379072 Watching for file changes with StatReloader
+INFO 2025-09-28 04:30:37,684 autoreload 11861 125408807379072 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:30:38,291 autoreload 11972 123450504614016 Watching for file changes with StatReloader
+INFO 2025-09-28 04:30:43,688 autoreload 11972 123450504614016 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:30:44,312 autoreload 12009 128993844822144 Watching for file changes with StatReloader
+INFO 2025-09-28 04:30:48,718 autoreload 12009 128993844822144 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:30:49,429 autoreload 12044 136856630227072 Watching for file changes with StatReloader
+INFO 2025-09-28 04:31:19,269 autoreload 12044 136856630227072 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:31:19,951 autoreload 12102 139428923740288 Watching for file changes with StatReloader
+INFO 2025-09-28 04:34:15,076 autoreload 12102 139428923740288 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:34:15,834 autoreload 12259 135623597600896 Watching for file changes with StatReloader
+INFO 2025-09-28 04:34:17,189 autoreload 12259 135623597600896 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:34:17,887 autoreload 12273 123805627785344 Watching for file changes with StatReloader
+INFO 2025-09-28 04:36:33,374 autoreload 12273 123805627785344 /home/miki/SpotterAI/spotter_assessment/trips/urls.py changed, reloading.
+INFO 2025-09-28 04:36:34,079 autoreload 12379 135091255480448 Watching for file changes with StatReloader
+INFO 2025-09-28 04:36:36,397 autoreload 12379 135091255480448 /home/miki/SpotterAI/spotter_assessment/trips/urls.py changed, reloading.
+INFO 2025-09-28 04:36:37,069 autoreload 12419 138720062292096 Watching for file changes with StatReloader
+INFO 2025-09-28 04:36:40,439 autoreload 12419 138720062292096 /home/miki/SpotterAI/spotter_assessment/trips/urls.py changed, reloading.
+INFO 2025-09-28 04:36:41,177 autoreload 12433 134145271410816 Watching for file changes with StatReloader
+INFO 2025-09-28 04:36:43,613 autoreload 12433 134145271410816 /home/miki/SpotterAI/spotter_assessment/trips/urls.py changed, reloading.
+INFO 2025-09-28 04:36:44,319 autoreload 12487 123472762515584 Watching for file changes with StatReloader
+INFO 2025-09-28 04:43:11,416 autoreload 12487 123472762515584 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:43:12,202 autoreload 12727 126581918990464 Watching for file changes with StatReloader
+INFO 2025-09-28 04:43:13,560 autoreload 12727 126581918990464 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:43:14,202 autoreload 12742 140234065510528 Watching for file changes with StatReloader
+INFO 2025-09-28 04:43:54,198 autoreload 12742 140234065510528 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:43:54,964 autoreload 12810 126119972003968 Watching for file changes with StatReloader
+INFO 2025-09-28 04:44:24,829 autoreload 12810 126119972003968 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:44:25,510 autoreload 12879 139314771259520 Watching for file changes with StatReloader
+INFO 2025-09-28 04:44:31,940 autoreload 12879 139314771259520 /home/miki/SpotterAI/spotter_assessment/trips/views.py changed, reloading.
+INFO 2025-09-28 04:44:32,744 autoreload 12928 140120943575168 Watching for file changes with StatReloader
+INFO 2025-09-28 04:45:26,133 autoreload 12928 140120943575168 /home/miki/SpotterAI/spotter_assessment/trips/urls.py changed, reloading.
+INFO 2025-09-28 04:45:26,794 autoreload 13001 131442269347968 Watching for file changes with StatReloader
+INFO 2025-09-28 04:45:28,139 autoreload 13001 131442269347968 /home/miki/SpotterAI/spotter_assessment/trips/urls.py changed, reloading.
+INFO 2025-09-28 04:45:28,822 autoreload 13015 123725087920256 Watching for file changes with StatReloader
+INFO 2025-09-28 04:45:32,371 autoreload 13015 123725087920256 /home/miki/SpotterAI/spotter_assessment/trips/urls.py changed, reloading.
+INFO 2025-09-28 04:45:33,140 autoreload 13043 125441419911296 Watching for file changes with StatReloader
+WARNING 2025-09-28 04:45:46,182 log 13043 125441334568640 Not Found: /
+WARNING 2025-09-28 04:45:46,183 basehttp 13043 125441334568640 "GET / HTTP/1.1" 404 2826
+WARNING 2025-09-28 04:45:46,532 log 13043 125441334568640 Not Found: /favicon.ico
+WARNING 2025-09-28 04:45:46,533 basehttp 13043 125441334568640 "GET /favicon.ico HTTP/1.1" 404 2877
+INFO 2025-09-28 04:45:56,534 basehttp 13043 125441334568640 "GET /api/ HTTP/1.1" 200 140
+INFO 2025-09-28 05:17:02,845 basehttp 13043 125441334568640 "GET /api/drivers/ HTTP/1.1" 200 52
+INFO 2025-09-28 06:27:34,039 autoreload 13043 125441419911296 /home/miki/SpotterAI/spotter_assessment/spotter_assessment/settings.py changed, reloading.
+INFO 2025-09-28 06:27:34,712 autoreload 19018 128992389333120 Watching for file changes with StatReloader
+INFO 2025-09-28 06:27:37,282 autoreload 19018 128992389333120 /home/miki/SpotterAI/spotter_assessment/spotter_assessment/settings.py changed, reloading.
+INFO 2025-09-28 06:29:25,403 autoreload 19405 126096403177600 Watching for file changes with StatReloader
+INFO 2025-09-28 06:29:43,177 autoreload 19405 126096403177600 /home/miki/SpotterAI/spotter_assessment/spotter_assessment/settings.py changed, reloading.
+INFO 2025-09-28 06:29:58,171 autoreload 19572 134576031531136 Watching for file changes with StatReloader
