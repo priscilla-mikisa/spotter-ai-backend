@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -158,9 +159,11 @@ REST_FRAMEWORK = {
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React dev server
+    "http://localhost:3000",  
     "http://127.0.0.1:3000",
-    "https://your-frontend-domain.com",
+    "https://spotter-ai-backend.onrender.com",
+    "https://spotter-ai-frontend.vercel.app",
+    "https://spotter-ai-frontend.netlify.app",
 ]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
